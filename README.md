@@ -102,6 +102,15 @@ Identified clear emission-per-capita outliers
 - Add CI/CD pipeline via GitHub Actions for notebook deployment
 - Integrate population source data into transformation workflow
 
+## Project Structure
+```
+/notebooks
+/data_raw         ← original CSV
+/data_cleaned     ← cleaned/Delta output
+/images           ← dashboards, charts, diagrams
+README.md
+```
+
 ---
 
 👤 Author
